@@ -1,0 +1,39 @@
+﻿* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#texto {
+	width: 440px;
+	height: 2em;
+	border: 1px solid black;
+	padding-left:7px;
+}
+
+#btnEnviar {
+	width:50px;
+	margin-left:10px;
+	padding:5px;
+	background-color: orange;
+	border:1px solid orange;
+	height:2em;
+}
+
+#lineas {
+	width:500px;
+	min-height:250px;
+	padding:10px;
+	margin-top:10px;
+	border: 1px dashed silver;
+}
+
+.linea {
+	font-size:10pt;
+	font-style:italic;
+}
+
+.linea .hora {
+	color:orange;
+	font-weight:bold;
+}
